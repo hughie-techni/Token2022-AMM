@@ -1,0 +1,29 @@
+{
+  "token_2022": {
+    "name": "Token-2022 Program",
+    "description": "Solana Program Library's advanced token program with extensions like Transfer Hooks.",
+    "url": "https://spl.solana.com/token-2022",
+    "docs": "https://spl.solana.com/token-2022",
+    "security_audits": [
+      "https://github.com/solana-labs/security-audits/blob/master/spl/OtterSecToken2022Audit-2023-11-03.pdf",
+      "https://github.com/solana-labs/security-audits/blob/master/spl/HalbornToken2022Audit-2022-07-27.pdf",
+      "https://github.com/solana-labs/security-audits/blob/master/spl/ZellicToken2022Audit-2022-12-05.pdf",
+      "https://github.com/solana-labs/security-audits/blob/master/spl/TrailOfBitsToken2022Audit-2023-02-10.pdf",
+      "https://github.com/solana-labs/security-audits/blob/master/spl/NCCToken2022Audit-2023-04-05.pdf"
+    ],
+    "github": "https://github.com/solana-program/token-2022"
+  },
+  "amms": [
+    {
+      "name": "Raydium",
+      "description": "On-chain order book AMM with CPMM support for Token-2022, but no native Transfer Hook support.",
+      "github": "https://github.com/raydium-io",
+      "website": "https://raydium.io",
+      "sdk_demo": "https://github.com/raydium-io/raydium-sdk-V2-demo"
+    }
+  ],
+  "notes": {
+    "transfer_hooks": "Token-2022 Transfer Hooks allow custom logic during transfers but are not yet supported by major AMMs, requiring custom integration or new AMM development.",
+    "development_resources": "Use Anchor for Solana smart contracts, TypeScript for UI/SDK, and Solana Program Library for token interactions."
+  }
+}

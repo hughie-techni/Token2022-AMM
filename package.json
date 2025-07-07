@@ -1,0 +1,13 @@
+{
+  "name": "token-2022",
+  "version": "1.0.0",
+  "description": "This project enables trading of Token-2022 tokens with Transfer Hooks on a Solana AMM, either by extending an existing AMM (Raydium, Orca, Meteora) or building a new one. It includes a UI for creating tokens, liquidity pools, and trading, with support for whitelisted Transfer Hooks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

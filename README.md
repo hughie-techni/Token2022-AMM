@@ -5,7 +5,7 @@ This project enables trading of Token-2022 tokens with Transfer Hooks on a Solan
 
 ## Installation
 ### Prerequisites
-- Solana CLI: `sh -c "$(curl -sSfL https://release.anza.xyz/v2.2.1/install)"`
+- Solana CLI: `sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"`
 - Rust: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 - Node.js: Version 18 or higher
 - Anchor: `cargo install --git https://github.com/coral-xyz/anchor anchor-cli --locked`
